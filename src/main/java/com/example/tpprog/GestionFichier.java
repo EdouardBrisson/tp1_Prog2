@@ -203,7 +203,7 @@ public final class GestionFichier {
     }
 
     //chemin utilisé pour stocker les sauvegardes/exports
-    private final Path cheminJSON = Paths.get("C:\\Users\\2583138\\OneDrive - Cegep de Lanaudiere\\Programmation\\Session 2\\TpProg\\src\\main\\java\\Save");
+    private final Path cheminJSON = Paths.get("C:\\Users\\");
 
     private void exportJSON(String nom, String contenu) {
         File file = cheminJSON.resolve(nom).toFile();
